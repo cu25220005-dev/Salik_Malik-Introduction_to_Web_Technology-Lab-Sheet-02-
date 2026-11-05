@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login and Admission Form</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightblue;
+        }
+
+        .box {
+            width: 350px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+
+        button {
+            background: green;
+            color: white;
+            padding: 10px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="box">
+
+    <h2>Student Login</h2>
+
+    <form>
+
+        Username:
+        <input type="text" placeholder="Enter username" required>
+
+        Password:
+        <input type="password" placeholder="Enter password" required>
+
+        <button type="submit">Login</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</div>
+
+
+<div class="box">
+
+    <h2>College Admission Form</h2>
+
+    <form>
+
+        Student Name:
+        <input type="text" placeholder="Enter name" required>
+
+        Date of Birth:
+        <input type="date" required>
+
+        Email:
+        <input type="email" placeholder="Enter email" required>
+
+        Mobile:
+        <input type="tel" placeholder="Enter mobile number" required>
+
+        Gender:<br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+
+        <br><br>
+
+        Select Course:
+        <select>
+            <option>BCA</option>
+            <option>B.Tech</option>
+            <option>BBA</option>
+            <option>MCA</option>
+        </select>
+
+        Address:
+        <input type="text" placeholder="Enter address">
+
+        <button type="submit">Submit Admission</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
